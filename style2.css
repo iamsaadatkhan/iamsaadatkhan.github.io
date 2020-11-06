@@ -1,0 +1,343 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;500&display=swap');
+
+html,body{
+    background-color: black;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+/* .bg-dark{
+    background-color: black !important;
+} */
+
+#main-section-container{
+    background-size: cover;
+
+}
+
+.navbar-brand{
+    z-index: 1;
+}
+
+
+#main-section-container h1{
+ padding-top: 10%;   
+ font-size: 300%;
+ text-decoration: underline;
+ text-decoration-color: #795bb0;
+
+}
+
+#main-section-container h4{
+    font-family: 'Yantramanav', sans-serif;
+    padding-right: 100px;
+    font-weight: 300;
+    
+    color: rgb(252, 252, 252);
+   
+   }
+
+#portfolio-section-container h1{
+    font-family: "Merriweather", sans-serif;
+    font-weight: 500;
+    padding-top: 9%;   
+    padding-bottom:5%;
+    font-size: 300%;
+    padding-right: 18%;
+    padding-left: 14%;
+}
+
+.link {
+    display:inline-flex;
+    padding: 15px 0 ;
+    margin: 15px 25px;
+    margin-right: 50px;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Yantramanav', serif;
+    font-size: 18px;
+    
+  }
+
+.link:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:underline;
+    text-decoration-color: #795bb0;
+}
+
+.mt_custom{
+    margin-top:8rem;
+    height: 80vh;
+}
+
+img{
+    border: #4ac1ff solid;
+    border-radius: 10px;
+}
+.custom-dark{
+    background-color: black !important;
+}
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    padding: 90px 90px
+    ;
+}
+
+.col {
+    padding-left:0px;
+    padding-right: 0px;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.bg-left {
+    background:   url(Sparvelui.png);
+    background-size: cover;
+}
+
+
+.bg-right {  
+    background: url(Mockup.png);
+    background-size: cover;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.col-md-2{
+padding-right: 0px;
+padding-left: 10px;
+}
+
+
+#portfolio-1{
+  
+    height: 50vh;
+    padding-bottom:50px;
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition:1.9s;
+    transition-property: width;
+    background-color: rgb(120, 120, 120 , 0.7)  ;
+  }
+
+
+#portfolio-1 :hover.overlay{
+    padding-top:20%;
+    font-size: 46px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#portfolio-1 h2{
+ color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#email-section-container h2{
+    font-family: "Merriweather", sans-serif;
+    font-weight: 500;
+    padding-top: 10%;   
+    padding-bottom:1%;
+    font-size: 300%;
+    padding-right: 18%;
+    padding-left: 14%;
+}
+
+#email-section-container h4{
+    font-family: "Merriweather", sans-serif;
+    font-weight: 500;  
+    padding-bottom:5%;
+    font-size: 200%;
+    padding-right: 28%;
+    padding-left: 14%;
+}
+#email-section-container a{
+    color: white;}
+#email-section-container a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:underline;
+    text-decoration-color: #795bb0;
+
+}
+
+
+.footer__main {
+	background: rgb(8, 8, 8);
+	text-align: left;
+	color: white;
+    padding: 100px 0 20px;
+    
+    font-family: 'Yantramanav''sans-serif';
+    font-weight: 500;
+}
+/* .footer__main figure {
+	max-width: 155px;
+	height: auto;
+	margin: auto 0 20px;
+}
+.footer__main figure img {
+	width: 100%;
+	height: auto;
+} */
+
+/* .footer__main .logo{
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+.footer__main .logo p {
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+    padding-left: 15px;
+    font-family:'Merriweather' , 'sans-serif';
+}
+
+
+
+.footer__main .mails h5 {
+    font-size: 18px;
+	font-family: 'Yantramanav', sans-serif;}
+.footer__main .mails a {
+	color: white;
+	font-size: 18px;
+	font-family: 'Yantramanav', sans-serif;
+	
+}
+.footer__main .mails a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:underline;
+    text-decoration-color: #795bb0;
+}
+
+.footer__main .social__links li a {
+    font-family: 'Yantramanav', sans-serif;
+  	font-size: 18px;
+  	
+	color: white;
+}
+.footer__main .social__links li a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration:underline;
+    text-decoration-color: #795bb0;
+}
+
+.footer-rights{
+    padding:25px 25px;
+}
+.text-02 {
+    position: static;
+    display: block;
+    max-width: none;
+    font-family: 'Yantramanav', sans-serif;
+    color: #ebebeb;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400;
+  }
+
+
+@media only screen and (max-width: 438px) {
+    html,body{
+        width: 113% !important;
+    }
+  }
+
+  @media only screen and (max-width: 438px) {
+    #main-section-container h1{
+        font-size: 150%;
+        padding-top:20px;
+        padding-right: 102px;
+        padding-left:25px;
+
+       
+       }
+
+       #main-section-container h4{
+        font-family: 'Yantramanav', sans-serif;
+        font-size: 22px;
+        padding-right: 150px;
+        padding-left:25px;
+        color: rgb(233, 233, 233);
+       }
+        #portfolio-section-container h1{
+            font-size: 150%;
+            padding-right: 26%;
+            padding-left:12%;
+        }
+        #email-section-container h2{
+            font-size: 150%;
+            padding-right: 26%;
+            padding-left:12%;
+
+        }
+        #email-section-container h4{
+            font-size: 100%;
+            padding-right: 15%;
+            padding-left:12%;
+            margin-right: 15%;
+
+        }
+      
+        #portfolio-1 :hover.overlay{
+            padding-top:35%;
+            font-size: 32px;
+            padding-right: 25%;
+            padding-left: 8%;
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .footer__main{
+            padding-left: 30px;
+        }
+        .footer__main .mails h5 {
+        padding-left: 15px;
+        }
+     
+        .footer__main .mails a {
+            padding-left: 15px;
+            }
+        .footer__main .social__links li a{
+            padding-right: 50px;
+        }
+        .footer-rights{
+            padding:25px 0px;
+        }
+
+
+        .mt_custom{
+            margin-top:8rem;
+            height: 75vh;
+        }
+
+       
+       }
+
+  
