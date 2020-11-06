@@ -261,12 +261,12 @@ padding-left: 10px;
     line-height: 100%;
     font-weight: 400;
   }
-  .circle {
+.circle {
 	position: absolute;
-  border: solid 3px #795bb0;
+	border: solid 3px #795bb0;
 	width: 30px; 
 	height: 30px; 
-  border-radius: 50%;  
+	border-radius: 50%;  
 }
 
 @media only screen and (max-width: 438px) {
