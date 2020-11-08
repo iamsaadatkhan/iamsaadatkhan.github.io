@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+
+
+.portfolio-gallery-container img{
+   border: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#about-portfolio-text h6{
+font-family: 'Heebo', sans-serif;
+font-size: 18px;
+font-weight: 100;
+padding-top: 2%;
+padding-left:25%;
+padding-right: 25%;
+line-height: 1.5em;
+}
+
+#about-portfolio-text h2{
+    
+    
+    
+    padding-left:25%;
+    padding-right: 25%;
+    
+    }
+.images-carousel{
+    padding: 5% 5%;
+}
